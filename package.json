@@ -1,0 +1,41 @@
+{
+  "name": "tkyt",
+  "version": "1.0.0",
+  "description": "https://www.youtube.com/@dominuskelvin",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon",
+    "start:watch": "fastify start index-plugin.js -w -p 8080",
+    "start:web": "open http://localhost:8080/fastify-overview-ui",
+    "start:mongo": "docker-compose up -d",
+    "stop": "docker-compose down",
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eomm/TKYT.git"
+  },
+  "keywords": [],
+  "author": "Manuel Spigolon <behemoth89@gmail.com> (https://github.com/Eomm)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eomm/TKYT/issues"
+  },
+  "homepage": "https://github.com/Eomm/TKYT#readme",
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "@fastify/mongodb": "^7.0.0",
+    "fastify": "^4.15.0",
+    "fastify-cli": "^5.7.1",
+    "fastify-overview": "^3.3.0",
+    "fastify-overview-ui": "^2.1.0",
+    "fastify-plugin": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "standard": "^17.0.0"
+  }
+}

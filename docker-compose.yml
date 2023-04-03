@@ -1,0 +1,16 @@
+# spin up one mongodb
+# docker run -d --name mongo -p 27017:27017 mongo
+version: '3.1'
+services:
+  tkyt-mongo-one:
+    image: mongo:5
+    ports:
+      - "27011:27017"
+  tkyt-mongo-two:
+    image: mongo:5
+    ports:
+      - "27012:27017"
+  tkyt-mongo-three:
+    image: mongo:5
+    ports:
+      - "27013:27017"
