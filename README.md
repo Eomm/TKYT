@@ -8,7 +8,7 @@ I'm going to explore the Fastify plugin system.
 This is a deep dive into my [_The Complete Guide to the Fastify Plugin System_](https://backend.cafe/the-complete-guide-to-the-fastify-plugin-system) article.
 
 
-## Roadmap
+## Agenda
 
 - [ ] Introduction
 - [ ] What is a plugin?
@@ -23,7 +23,7 @@ This is a deep dive into my [_The Complete Guide to the Fastify Plugin System_](
 - [ ] Visualizing the plugin system
 - [ ] Why the plugin system is a key feature of Fastify?
 - [ ] Visualizing the whole application
-- [ ] Summary
+- [ ] Summary and Questions
 
 
 ## License
